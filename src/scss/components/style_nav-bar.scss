@@ -1,0 +1,102 @@
+.wrapper_nav-bar {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #fafafa;
+
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-bar {
+        font-family: 'Manrope';
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 5;
+        background: #ffffff;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
+        display: none;
+    }
+
+    .nav-bar__items {
+        padding: 8px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-bar__link {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+    }
+
+    .nav-bar__link.home {
+        background: url(../img/nav-bar_home-default.svg) no-repeat;
+    }
+    .nav-bar__link.home:active {
+        background: url(../img/nav-bar_home-active.svg) no-repeat;
+    }
+    .nav-bar__link.home.active {
+        background: url(../img/nav-bar_home-active.svg) no-repeat;
+    }
+
+    .nav-bar__link.search {
+        background: url(../img/nav-bar_search-default.svg) no-repeat;
+    }
+    .nav-bar__link.search:active {
+        background: url(../img/nav-bar_search-active.svg) no-repeat;
+    }
+    .nav-bar__link.search.active {
+        background: url(../img/nav-bar_search-active.svg) no-repeat;
+    }
+
+    .nav-bar__link.market {
+        position: relative;
+        background: url(../img/nav-bar_market-default.svg) no-repeat;
+    }
+    .nav-bar__link.market:active {
+        background: url(../img/nav-bar_market-active.svg) no-repeat;
+    }
+    .nav-bar__link.market.active {
+        background: url(../img/nav-bar_market-active.svg) no-repeat;
+    }
+
+    .nav-bar__link.market span {
+        width: 13px;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 3px;
+        right: 5px;
+        background-color: #EB1010;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .nav-bar__link.market:active span,
+    .nav-bar__link.market.active span {
+        background: #F7F7F7;
+        color: #000000;
+    }
+
+    @media screen and (max-width: 820px) {
+        .nav-bar {
+            display: block;
+        }
+    }
+}
+

@@ -1,0 +1,21 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/style_footer";
+@import "./components/style_nav-bar";
+@import "./components/style_basket-1";
+@import "./components/style_basket-2";
+@import "./components/style_category";
+@import "./components/style_order";
+@import "./components/style_feedback";
+@import "./components/about+delivery";
+@import "./components/media";
+@import "./components/home-main";
+@import "./components/adaptive-home";
+@import "./components/search";
+

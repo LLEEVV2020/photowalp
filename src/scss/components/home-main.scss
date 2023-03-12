@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+     font-family: 'Manrope', sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;   
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+.containers{
+     max-width: 930px;
+     margin: 0 auto;
+}
+
+.searchs{
+     margin-top: 24px;
+     margin-bottom: 24px;
+     display: flex;
+}
+
+.categories__btn{
+     display: block;
+     cursor: pointer;
+     height: 56px;
+     width: 200px;
+     margin-right: 40px;
+     text-align: center;
+     padding-top: 15.5px;
+     padding-left: 14px;
+     color: #FFFFFF;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     background: url(../img/Icon.svg) no-repeat 16px 8px, linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+     box-shadow: 0px 2px 4px rgba(255, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 14px;
+     border: none;
+}
+
+.categories__btn:hover{
+     background: url(../img/Icon.svg) no-repeat 16px 8px, #930A0A;
+}
+
+.checkbox__categories{
+     display: none;
+}
+
+.categories__menu{
+     display: none;
+     position: absolute;
+     width: 577px;
+     height: 1111px;
+     padding-left: 48px;
+     background: #FFFFFF;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 0px 12px 12px 0px;
+     z-index: 2;
+     left: 0;
+     top: 85px;
+     transition: all .5s;
+     transform: translateX(-150%);
+     animation: animation 1s forwards;
+}
+
+.close__categories{
+     position: absolute;
+     cursor: pointer;
+     top: 8px;
+     right: 8px;
+     filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.18));
+}
+
+.close__categories__max{
+     display: none;
+     position: absolute;
+     width: 100%;
+     height: 4000px;
+     z-index: 1;
+}
+
+.links{
+     margin-top: 48px;
+}
+
+.link{
+     position: relative;
+     display: flex;
+     text-decoration: none;
+     width: 443px;
+     margin-bottom: 24px;
+}
+
+.link:active{
+     background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+}
+
+.link:active > .link__svg{
+     fill: #D74E4E;
+}
+
+.link:active > .link__arrow{
+     stroke: #D74E4E;
+}
+
+.link__text{
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     margin-left: 16px;
+     color: #000000;
+}
+
+.link__svg{
+     fill: #000000;
+}
+
+.link__svg div{
+     width: 100%;
+}
+
+.link__svg:active{
+     fill: #D74E4E;
+}
+
+.link__arrow{
+     position: absolute;
+     margin-top: 6.5px;
+     right: 0;
+     stroke: #000000;
+}
+
+.contacts__menu{
+     display: flex;
+     background: #FFFFFF;
+     width: 241px;
+     height: 60px;
+     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
+     border-radius: 14px;
+     margin-top: 8px;
+     transition: all .5s;
+}
+
+.contacts__menu__checkbox{
+     z-index: 4;
+}
+
+.contacts{
+     display: block;
+}
+
+.contact{
+     transition: all .5s;
+     display: none;
+     transform: translateX(-150%);
+     margin-left: 5px;
+     margin-top: 10px;
+     z-index: 1;
+}
+
+.contact1{
+     animation: contact1 1s forwards;
+}
+
+.contact2{
+     animation: contact2 1s forwards;
+}
+
+.contact3{
+     animation: contact3 1s forwards;
+}
+
+.contact4{
+     animation: contact4 1s forwards;
+}
+
+@keyframes animation{
+     0% {transform: translateX(-150%);}
+     100% {transform: translateY(0);}
+}
+
+@keyframes contact1{
+     0% {transform: translateX(-150%);}
+     100% {transform: translateY(0);}
+}
+
+@keyframes contact2{
+     0% {transform: translateX(-250%);}
+     100% {transform: translateY(0);}
+}
+
+@keyframes contact3{
+     0% {transform: translateX(-300%);}
+     100% {transform: translateY(0);}
+}
+
+@keyframes contact4{
+     0% {transform: translateX(-350%);}
+     100% {transform: translateY(0);}
+}
+
+.contacts__menu__checkbox:checked ~ .contact{
+     display: block;
+}
+
+.categories__btn:checked ~ .categories__menu{
+     display: block;
+}
+
+.categories__btn:checked ~ .close__categories__max{
+     display: block;
+}
+
+.search__inputs{
+     position: relative;
+     overflow: hidden;
+     margin-top: 8px;
+     width: 610px;
+     height: 40px;
+     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
+     border-radius: 12px;
+     border: 1px solid #000;
+     background: #fff;
+}
+
+.search__inputs:hover{
+     box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.2);
+}
+
+.search__input{
+     height: 100%;
+     width: 492px;
+     margin-left: 56px;
+     padding-left: 16px;
+     border-radius: 12px;
+     border: none;
+     outline: none;
+     background: #fff;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 22px;
+     color: rgba(27, 31, 59, 0.65);
+}
+
+.search__input:focus{
+    color: #1B1F3B;
+}
+
+.search__input:focus ~ .search__input{
+    box-shadow: 0px 12px 36px rgba(0, 0, 0, 0.2);
+} 
+
+.btn__search, .btn_clear{
+    display: block;
+}
+
+.btn__search{
+    position: absolute;
+    left: -5px;
+    top: -1px;
+    border: 0;
+    padding: 0;
+}
+
+.btn__clear{
+    height: 40px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0);
+    right: 0;
+    top: -1px;
+    border: 0;
+    padding: 0;
+}
+
+.search__input::-webkit-search-cancel-button{
+     display: none;
+}
+
+.btn__cart{
+     cursor: pointer;
+     width: 40px;
+     height: 40px;
+     margin-left: 40px;
+     margin-top: 8px;
+}
+
+.categories__title{
+     text-align: center;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 55px;
+}
+
+.categories__cards{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 24px;
+     margin-bottom: 24px;
+}
+
+.categories__card{
+     position: relative;
+     width: 450px;
+     height: 250px;
+     margin-bottom: 32px;
+     border-radius: 14px;
+}
+
+.card__margin__left{
+     margin-right: 30px;                       
+}
+
+.no__margin{
+     margin-bottom: 0;
+}
+.card__img{
+     position: absolute;
+}
+
+.card__button{
+     position: absolute;
+     cursor: pointer;
+     text-align: center;
+     text-decoration: none;
+     padding-top: 9.5px;
+     width: 183px;
+     height: 44px;
+     bottom: 0;
+     margin-left: 134px;
+     background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+     color: #fff;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     border: none;
+     border-radius: 12px;
+}
+
+.card__button__big{
+     width: 200px;
+     margin-left: 125px;
+}
+
+.advantages__cards{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 80px;
+     margin-top: 37px;
+     margin-bottom: 24px;
+}
+
+.advantages__card{
+     width: 370px;
+     height: 200px;
+     text-align: center;
+     margin-bottom: 40px;
+}
+
+.advantages__titles{
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 33px;
+     margin-top: 16px;
+}
+
+.texts__paragraph{
+   margin-top: 14px;
+   margin-bottom: 14px;
+}

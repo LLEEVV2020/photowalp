@@ -1,0 +1,133 @@
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    padding: 18px 24px;
+  }
+  .advantages__title,
+  .range__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--lack-color);
+  }
+  .range {
+    margin-bottom: 24px;
+  }
+  .about__desc {
+    margin-bottom: 24px;
+  }
+  .advantages__desc {
+    margin-bottom: 24px;
+  }
+  .delivery__desc-pay {
+    max-width: 726px;
+  }
+  .delivery__desc-pay {
+    margin-bottom: 24px;
+  }
+  .delivery__img {
+    margin-bottom: 20px;
+  }
+  .erip__instruction {
+    margin-bottom: 18px;
+  }
+  /* order */
+  .pay__box,
+  .delivery__box {
+    width: 100%;
+  }
+  .form__button {
+    width: 100%;
+  }
+  .form__order-box {
+    width: 74.2%;
+  }
+  .info {
+    width: 100%;
+  }
+  .form__button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    border-radius: 12px;
+  }
+  .pay__title,
+  .del_-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .container {
+    padding: 18px 16px;
+  }
+  .advantages__title,
+  .range__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--lack-color);
+  }
+  .advantages__desc {
+    margin-bottom: 8px;
+  }
+  .range {
+    margin-bottom: 24px;
+  }
+  .about__desc {
+    margin-bottom: 24px;
+  }
+  .delivery__page-title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .delivery__img {
+    margin-bottom: 24px;
+  }
+  .delivery__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .delivery__minsk {
+    padding-bottom: 16px;
+  }
+  .delivery__desc-pay {
+    margin-bottom: 16px;
+  }
+  .delivery__erip-img {
+    margin-bottom: 16px;
+  }
+  .erip__instruction {
+    margin-bottom: 24px;
+  }
+  /* order */
+  .order__page-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .form__order-box {
+    width: 100%;
+  }
+  .form__button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  .pay__title,
+  .del__title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .pay__box,
+  .delivery__box {
+    width: 100%;
+  }
+}

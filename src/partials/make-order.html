@@ -1,0 +1,104 @@
+
+
+  <div class="container">
+    <button class="about__arrow" aria-label="Назад">
+      <svg width="24" height="20" viewbox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.79752 0.574598L8.78939 0.582731L0.387937 8.97317C0.321633 9.03985 0.262725 9.1135 0.212237 9.19283L0.0804497 9.43442L0.0255211 9.59916L0.0255211 9.71998C-0.00850704 9.90513 -0.00850704 10.0949 0.0255211 10.2801L0.0255211 10.5217L0.124362 10.7084C0.180884 10.8124 0.251054 10.9085 0.333008 10.9939L8.78939 19.4173C9.34897 19.9814 10.2599 19.985 10.824 19.4255L10.8321 19.4173C11.3746 18.8487 11.3746 17.9542 10.8321 17.3856L5.82417 12.3667C5.61187 12.1502 5.61527 11.8025 5.83184 11.5902C5.93258 11.4914 6.06749 11.4352 6.20857 11.4332L22.5612 11.4332C23.3558 11.4333 23.9999 10.7892 24 9.99463C24 9.20004 23.356 8.55593 22.5614 8.55582L6.20857 8.55582C5.90535 8.55155 5.66294 8.30229 5.66721 7.99907C5.66922 7.85802 5.72538 7.72309 5.82417 7.62235L10.8321 2.62539C11.3816 2.05536 11.3816 1.15271 10.8321 0.58268C10.2725 0.0186195 9.36158 0.0149651 8.79752 0.574598Z" fill="black"/>
+      </svg>
+    </button>
+    <div class="order">
+      <h2 class="order__page-title">Оформление заказа</h2>
+      <form id="form__order" method="post">
+        <div class="form__order-box">
+          <label class="form__label">Email</label>
+          <input class="form__input input-email" name="email" type="email" autocomplete="off" data-validate-field="email" placeholder="Value">
+          <button class="clear" data-clear-selector="input.input-email">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+        </div>
+        <div class="form__order-box">
+          <label class="form__label">Телефон</label>
+          <input type="tel" name="phone" id="input__phone" autocomplete="off" data-validate-field="phone" class="form__input input-phone" placeholder="Value" required>
+          <button class="clear" data-clear-selector="input.input-phone">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+          <span>Обязательное поле</span>
+        </div>
+        <div class="form__order-box">
+          <label class="form__label">Ф.И.О.</label>
+          <input type="text" name="name" id="input__name" class="form__input input-name" autocomplete="off" data-validate-field="name" placeholder="Value" required>
+          <button class="clear" data-clear-selector="input.input-name">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+          <span>Обязательное поле</span>
+        </div>
+        <div class="form__order-box">
+          <label class="form__label">Почтовый индекс</label>
+          <input type="number" autocomplete="off" name="postcode" data-validate-field="postcode" class="form__input input-post" placeholder="Value">
+          <button class="clear" data-clear-selector="input.input-post">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+        </div>
+        <div class="form__order-box">
+          <label class="form__label">Город</label>
+          <input type="text" class="form__input input-city" name="city" autocomplete="off" data-validate-field="city" placeholder="Value">
+          <button class="clear" data-clear-selector="input.input-city">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+        </div>
+        <div class="form__order-box">
+          <label class="form__label">Адрес доставки</label>
+          <input type="text" name="address" class="form__input input-address" autocomplete="off" placeholder="Value">
+          <button class="clear" data-clear-selector="input.input-address">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+        </div>
+
+        <h3 class="pay__title">Оплата</h3>
+        <div class="pay__box">
+          <div class="pay__box-group">
+            <label>
+              <input type="radio" name="payment" value="cash" class="real-radio-btn">
+              <span class="custom-radio-btn"></span>
+              Наличными при получении
+            </label>
+          </div>
+          <div class="pay__box-group">
+            <label>
+              <input type="radio" name="payment" value="erip" class="real-radio-btn">
+              <span class="custom-radio-btn"></span>
+              Система &laquo;Расчёт&raquo; (ЕРИП). Номер счёта на&nbsp;оплату высылается клиенту на&nbsp;эл.почту либо смс на контактный номер моб.телефона.
+              Оплата производится перед отправкой товара.
+            </label>
+          </div>
+        </div>
+        <h3 class="del__title">Доставка</h3>
+        <div class="delivery__box">
+          <div class="delivery__box-group">
+            <label>
+              <input type="radio" name="delivery" value="post" class="real-radio-btn">
+              <span class="custom-radio-btn"></span>
+              Почта по&nbsp;Беларуси. Доставка до&nbsp;двери.(10,0&nbsp;руб)
+            </label>
+          </div>
+          <div class="delivery__box-group">
+            <label>
+              <input type="radio" name="delivery" value="courier" class="real-radio-btn">
+              <span class="custom-radio-btn"></span>
+              Курьером по&nbsp;г.Минск
+            </label>
+          </div>
+        </div>
+        <div class="form__order-box info">
+          <label class="form__label">Дополнительная информация</label>
+          <input type="text" class="form__input input-info" name="info" autocomplete="off" placeholder="Value">
+          <button class="clear" data-clear-selector="input.input-info">
+            <img src="img/Close.png" alt="Очистить">
+          </button>
+          <span>Примечание и специальные запросы</span>
+        </div>
+        <button class="form__button">Подтвердить заказ</button>
+      </form>
+    </div>
+  </div>
+
