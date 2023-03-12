@@ -82,6 +82,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .search__categories ul {
+    width: 100%;
+  }
+}
+
 /* Tabs style start */
 
 .tabs {
