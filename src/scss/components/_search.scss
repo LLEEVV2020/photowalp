@@ -50,38 +50,6 @@ input {
   text-decoration: none;
 }
 
-.closeModal::before,
-.closeModal::after 
-{
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  width: 80%;
-  height: 2px;
-  color: #ffffff;
-}
-
-.closeModal::before {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-}
-.closeModal::after {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-}
-
 .closeModal:hover,
 .closeModal:active
 {
