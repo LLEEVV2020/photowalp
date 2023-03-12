@@ -15,7 +15,7 @@
   h1 {
     text-align: center;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 4px;
   }
 
   input {
@@ -68,7 +68,7 @@
 .search__categories {
   ul {
     padding: 0;
-    width: 400px;
+    max-width: 400px;
     display: flex;
     flex-wrap: wrap;
 
