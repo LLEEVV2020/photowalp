@@ -48,6 +48,9 @@ input {
   top: 7px;
   right: 8px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .closeModal:hover,
