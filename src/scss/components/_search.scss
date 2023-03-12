@@ -9,10 +9,6 @@
 //   margin: 0 auto;
 // }
 
-.container__search {
-  padding-bottom: 10px;
-}
-
 .search__main {
   background: #fff;
   border-radius: 12px;
@@ -76,6 +72,7 @@
 // .search__button {
 // }
 .search__categories {
+  padding-bottom: 16px;
   ul {
     padding: 0;
     max-width: 400px;
