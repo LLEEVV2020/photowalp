@@ -3,6 +3,19 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .search__page {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .search__page {
+    max-width: 358px;
+    margin: 0 auto;
+  }
+}
+
 
 // .container {
 //   max-width: 930px;
