@@ -1,4 +1,17 @@
-.search__main { ////
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1024px;
+  // background-color: antiquewhite;
+}
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+.search {
+  
+}
+.search__main {
   background: #fff;
   h1 {
       text-align: center;
@@ -7,8 +20,7 @@
   }
   input {
       height: 40px;
-      max-width: 923px;
-      width: 100%;
+      width: 923px;
       border-radius: 12px;
       // border: linear-gradient(90deg, rgba(235,16,16,1) 0%, rgba(235,16,16,1) 0%, rgba(0,0,0,1) 100%);
   }
@@ -40,3 +52,4 @@
       }
   }
 }
+
