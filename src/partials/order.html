@@ -1,105 +1,178 @@
+<div class="modal__unique display__none">
+	<div class="modal__texture display__none">
+		<h2>Живопись</h2>
+		<div class="texture__wrapper">
+			<img class="texture__main" src="/img/texture1.png" />
+			<button class="close-btn">
+				<img src="/img/close-btn.png" />
+			</button>
+		</div>
+	</div>
+	<div class="modal__item-added-to-basket display__none">
+		<div class="item-added-to-basket__wrapper">
+			<button class="close-btn basket__close-btn">
+				<img src="/img/close-btn.png" />
+			</button>
+			<img class="add-to-basket__main" src="/img/texture1.png" />
+			<h2>Название</h2>
+			<p>Добавлен в корзину</p>
+			<div class="modal__buttons">
+				<button class="modal__button modal__button--left">
+					Продолжить покупки
+				</button>
+				<button class="modal__button modal__button--right">
+					<img src="/img/modal-basket-icon.png" /> В корзину
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal__instructions display__none">
+		<button class="close-btn">
+			<img src="/img/close-btn.png" />
+		</button>
+		<div class="modal__instructions__wrapper">
+			<h1>
+				Инструкция по наклеиванию виниловых фотообоев на флизелиновой основе.
+			</h1>
+			<h2>Необходимые условия для поклейки фотообоев:</h2>
+			<p>
+				1. Поверхность (стена) должна быть чистой, сухой, иметь однородное
+				цветовое покрытие. Слабые плохо держащиеся штукатурные покрытия и
+				отслаивающиеся части старых лакокрасочных покрытий, а масляная краска,
+				остатки старых обоев и шероховатости должны быть удалены, выбоины  и
+				трещины следует зашпатлевать. <br />2. Температура воздуха в помещении
+				во время проведения работ не должна превышать +25°С и быть  не ниже
+				+15°С, не допускаются сквозняки во время поклейки и течении 24 часов
+				после неё. <br />3. Важно осмотреть фотообои на наличие дефектов
+				(расслоение, масленые пятна, разрывы, и др. дефекты, не оговоренные в
+				данной инструкции) до начала оклейки.  Не должно быть отличия по цвету,
+				виду и стыковке изображения. При появления сомнений выполнить
+				контрольные замеры. При наличии дефектов детали считать бракованными. (К
+				поклеенным на стену фотообоям претензии не принимаются).
+			</p>
+			<h2>Порядок проведения работ по поклейке фотообоев:</h2>
+			<p>
+				1. Тщательно измерьте стену, снимите плинтусы. <br />2. Выложите рисунок
+				в соответствие с исходным изображением, нанесённым на этикетке. <br />3.
+				С помощью карандаша, уровня и рулетки разметьте стену для поклейки
+				необходимого вам количества полос. <br />4. Для оклейки необходимо
+				использовать клей для флизелиновых обоев. Размешайте клей в соответствии
+				с инструкцией производителя клея.  <br />5. При помощи щётки нанесите
+				клей непосредственно на поверхность стены, не следует наносить клей на
+				фотообои. Если поверхность стены пористая стену необходимо заранее
+				загрунтовать. <br />6. Наклейка полотен фотообоев производится встык.
+				Положите полосу к стене по линиям, которые вы разметили заранее и
+				наклейте её, разглаживая с помощью ролика (валика) от центра к краям.
+				Сделайте тоже самое с остальными полосами. Клей наносится на стену на
+				ширину 1-2 полос фотообоев. <br />8. В завершении работы удалите острым
+				ножом излишки полотна, и прикрепить плинтусы. <br />9.После завершения
+				работ очистите инструмент водой.
+			</p>
+		</div>
+	</div>
+</div>
 <section class="order__unique">
-  <h1>Вид на Нью-Йорк</h1>
-  <div class="carousel">
-    <button class="button button__left">
-      <img src="/img/arrow-right.png" alt="Предыдущий слайд" />
-    </button>
-    <img
-      class="carousel_image"
-      alt="Диван на фоне Нью-Йорка"
-      src="/img/cart.png"
-    />
-    <button class="button button__right">
-      <img src="/img/arrow-right.png" alt="Следущий слайд" />
-    </button>
-    <div class="carousel_dots">
-      <button class="carousel_dot carousel_dot__active"></button>
-      <button class="carousel_dot"></button>
-      <button class="carousel_dot"></button>
-    </div>
-    <ul class="list">
-      <li>
-        <div class="list_circle"><div></div></div>
-        Артикул: 7875
-      </li>
-      <li>
-        <div class="list_circle"><div></div></div>
-        На флизелиновой основе с виниловым покрытием
-      </li>
-    </ul>
-  </div>
-  <div class="size">
-    <div class="number__unique">1</div>
-    <h2>Укажите размеры стены</h2>
-    <div class="size_fields">
-      <div class="size_field">
-        <p>Высота стены (см)</p>
-        <input type="number" placeholder="240" />
-      </div>
-      <div class="size_field size_field__error">
-        <p>Ширина стены (см)</p>
-        <input type="number" placeholder="380" />
-      </div>
-    </div>
-  </div>
-  <p class="total">325.00(BY)</p>
-  <div class="texture">
-    <div class="number__unique">2</div>
-    <h2>Выбор текстуры</h2>
-    <div class="texture_list">
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture1.png" alt="Текстура 1" />
-        Живопись
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture2.png" alt="Текстура 2" />
-        Кора
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture3.png" alt="Текстура 3" />
-        Холст
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture4.png" alt="Текстура 4" />
-        Камень
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture5.png" alt="Текстура 5" />
-        Камень
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture6.png" alt="Текстура 6" />
-        Зима
-      </div>
-      <div class="texture_element">
-        <div class="texture_element__circle"></div>
-        <img src="/img/texture7.png" alt="Текстура 7" />
-        Крупный песок
-      </div>
-    </div>
-  </div>
-  <div class="instructions">
-    <ul class="list">
-      <li>
-        <div class="list_circle"><div></div></div>
-        Инструкция по поклейке &nbsp;<a href="/">здесь</a>
-      </li>
-      <li>
-        <div class="list_circle"><div></div></div>
-        Срок изготовления от 3 до 7 рабочих дней
-      </li>
-    </ul>
-  </div>
-  <div class="last_buttons">
-    <button class="last_button last_button__left">
-      <img src="/img/cartIcon.png" /> В корзину
-    </button>
-    <button class="last_button last_button__right">Заказать</button>
-  </div>
+	<h1>Вид на Нью-Йорк</h1>
+	<div class="carousel">
+		<button class="button button__left">
+			<img src="/img/arrow-right.png" alt="Предыдущий слайд" />
+		</button>
+		<img
+			class="carousel_image"
+			alt="Диван на фоне Нью-Йорка"
+			src="/img/cart.png"
+		/>
+		<button class="button button__right">
+			<img src="/img/arrow-right.png" alt="Следущий слайд" />
+		</button>
+		<div class="carousel_dots">
+			<button class="carousel_dot carousel_dot__active"></button>
+			<button class="carousel_dot"></button>
+			<button class="carousel_dot"></button>
+		</div>
+		<ul class="list">
+			<li>
+				<div class="list_circle"><div></div></div>
+				Артикул: 7875
+			</li>
+			<li>
+				<div class="list_circle"><div></div></div>
+				На флизелиновой основе с виниловым покрытием
+			</li>
+		</ul>
+	</div>
+	<div class="size">
+		<div class="number__unique">1</div>
+		<h2>Укажите размеры стены</h2>
+		<div class="size_fields">
+			<div class="size_field">
+				<p>Высота стены (см)</p>
+				<input type="number" placeholder="240" />
+			</div>
+			<div class="size_field size_field__error">
+				<p>Ширина стены (см)</p>
+				<input type="number" placeholder="380" />
+			</div>
+		</div>
+	</div>
+	<p class="total">325.00(BY)</p>
+	<div class="texture">
+		<div class="number__unique">2</div>
+		<h2>Выбор текстуры</h2>
+		<div class="texture_list">
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture1.png" alt="Текстура 1" />
+				Живопись
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture2.png" alt="Текстура 2" />
+				Кора
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture3.png" alt="Текстура 3" />
+				Холст
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture4.png" alt="Текстура 4" />
+				Камень
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture5.png" alt="Текстура 5" />
+				Камень
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture6.png" alt="Текстура 6" />
+				Зима
+			</div>
+			<div class="texture_element">
+				<div class="texture_element__circle"></div>
+				<img src="/img/texture7.png" alt="Текстура 7" />
+				Крупный песок
+			</div>
+		</div>
+	</div>
+	<div class="instructions">
+		<ul class="list">
+			<li>
+				<div class="list_circle"><div></div></div>
+				Инструкция по поклейке &nbsp;<a href="/">здесь</a>
+			</li>
+			<li>
+				<div class="list_circle"><div></div></div>
+				Срок изготовления от 3 до 7 рабочих дней
+			</li>
+		</ul>
+	</div>
+	<div class="last_buttons">
+		<button class="last_button last_button__left">
+			<img src="/img/cartIcon.png" /> В корзину
+		</button>
+		<button class="last_button last_button__right">Заказать</button>
+	</div>
 </section>
