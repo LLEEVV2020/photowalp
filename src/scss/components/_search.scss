@@ -1,16 +1,8 @@
-body {
-  box-sizing: border-box;
-  margin: 0 auto;
-  // width: 1024px;
-  // background-color: antiquewhite;
-}
 .container {
   width: 930px;
   margin: 0 auto;
 }
-// .search {
-  
-// }
+
 .search__main {
   background: #fff;
   border-radius: 12px;
@@ -19,12 +11,14 @@ body {
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
   position: relative;
+
   h1 {
     text-align: center;
     margin: 0;
     padding: 10px 0;
-}
-input {
+  }
+
+  input {
     height: 40px;
     width: 100%;
     border-radius: 12px;
@@ -33,8 +27,9 @@ input {
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
+  }
 }
-}
+
 .closeModal {
   width: 24px;
   height: 24px;
@@ -54,8 +49,7 @@ input {
 }
 
 .closeModal:hover,
-.closeModal:active
-{
+.closeModal:active {
   background: #EB1010;
 }
 
@@ -68,21 +62,71 @@ input {
   // &:hover{
   // }
 }
+
 // .search__button {
 // }
 .search__categories {
   ul {
-      padding: 0;
-      width: 400px;
-      display: flex;
-      flex-wrap: wrap;
-      li {
-          margin: 4px;
-          list-style-type: none;
-          padding: 2px 8px;
-          background: #D7D7D7;
-          border-radius: 8px;
-      }
+    padding: 0;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 4px;
+      list-style-type: none;
+      padding: 2px 8px;
+      background: #D7D7D7;
+      border-radius: 8px;
+    }
   }
 }
 
+/* Tabs style start */
+
+.tabs {
+  font-size: 0;
+  text-align: center;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+  display: none;
+  font-size: 16px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+  display: block;
+}
+
+.tabs>label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  color: rgba(27, 31, 59, .8);
+  margin: 19px 4px 14px
+}
+
+.tabs>label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+  background-color: #fff;
+  border-bottom: 2px solid #526ED3;
+  color: #000000;
+}
+
+/* Tabs style end */
