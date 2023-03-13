@@ -1,3 +1,7 @@
+.categories__btn__order{
+	margin: 24px auto 24px 47px;
+}
+
 .order__unique {
   width: 100%;
   min-width: 320px;
@@ -388,6 +392,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
+	.categories__btn__order{
+		margin: 16px auto 24px 24px;
+	}
   .order__unique {
     h2 {
       font-size: 28px;
@@ -442,6 +449,9 @@
 }
 
 @media (max-width: 767.9px) {
+	.categories__btn__order{
+		margin: 16px auto 24px 16px;
+	}
   .order__unique {
 		padding: 0 16px;
     h1 {
