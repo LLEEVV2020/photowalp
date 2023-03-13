@@ -309,7 +309,7 @@ body {
   outline: none;
   background-color: transparent;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 1;
 }
 .form__button {
   margin: 0 auto;
