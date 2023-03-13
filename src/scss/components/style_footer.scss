@@ -1,6 +1,6 @@
 .footer {
     font-family: 'Manrope';
-    max-width: 1024px;
+    max-width: 1920px;
     background: #ffffff;
     margin: 64px auto 0;
 
@@ -19,6 +19,8 @@
     .footer__wrapper {
         padding: 60px 51px 48px 48px;
         position: relative;
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     .footer__items {
