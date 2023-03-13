@@ -1,17 +1,17 @@
 <!-- чтобы соответсвующее модальное окно появилось, нужно убрать класс display__none в соответствующих местах  -->
-<div class="modal__unique display__none">
-	<div class="modal__texture display__none">
+<div id="modal__unique" class="modal__unique display__none">
+	<div id="modal__texture" class="modal__texture display__none">
 		<h2>Живопись</h2>
 		<div class="texture__wrapper">
 			<img class="texture__main" src="/img/texture1.png" />
-			<button class="close-btn">
+			<button id="modal__texture__btn__close" class="close-btn">
 				<img src="/img/close-btn.png" />
 			</button>
 		</div>
 	</div>
-	<div class="modal__item-added-to-basket display__none">
+	<div id="modal__bascet" class="modal__item-added-to-basket display__none">
 		<div class="item-added-to-basket__wrapper">
-			<button class="close-btn basket__close-btn">
+			<button id="modal__basket__btn__close" class="close-btn basket__close-btn">
 				<img src="/img/close-btn.png" />
 			</button>
 			<img class="add-to-basket__main" src="/img/texture1.png" />
@@ -27,8 +27,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal__instructions display__none">
-		<button class="close-btn">
+	<div id="modal__instructions" class="modal__instructions display__none">
+		<button id="modal__instructions__btn__close" class="close-btn">
 			<img src="/img/close-btn.png" />
 		</button>
 		<div class="modal__instructions__wrapper">
@@ -502,7 +502,7 @@
 		<div class="number__unique">2</div>
 		<h2>Выбор текстуры</h2>
 		<div class="texture_list">
-			<div class="texture_element">
+			<div id="modal__texture__btn" class="texture_element">
 				<div class="texture_element__circle"></div>
 				<img src="/img/texture1.png" alt="Текстура 1" />
 				Живопись
@@ -543,7 +543,7 @@
 		<ul class="list">
 			<li>
 				<div class="list_circle"><div></div></div>
-				Инструкция по поклейке &nbsp;<a href="/">здесь</a>
+				Инструкция по поклейке &nbsp;<a id="modal__instructions__btn">здесь</a>
 			</li>
 			<li>
 				<div class="list_circle"><div></div></div>
@@ -552,7 +552,7 @@
 		</ul>
 	</div>
 	<div class="last_buttons">
-		<button class="last_button last_button__left">
+		<button id="modal__basket__btn" class="last_button last_button__left">
 			<img src="/img/cartIcon.png" /> В корзину
 		</button>
 		<button class="last_button last_button__right">Заказать</button>

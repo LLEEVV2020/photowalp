@@ -149,6 +149,10 @@
     }
   }
 
+  #modal__instructions__btn{
+	cursor: pointer;
+  }
+
   .size {
     display: flex;
     flex-direction: column;
@@ -296,6 +300,7 @@
   .texture_element {
     position: relative;
     display: flex;
+	cursor: pointer;
     justify-content: start;
     align-items: center;
     flex-direction: column;
