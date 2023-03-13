@@ -61,7 +61,7 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
-  .feedback_unique {
+  .feedback__unique {
     padding: 0 24px;
 
     h1 {
@@ -83,7 +83,7 @@ body {
 }
 
 @media (max-width: 767.9px) {
-  .feedback_unique {
+  .feedback__unique {
     padding: 0 16px;
 
     h1 {
