@@ -65,6 +65,16 @@
      }
 }
 
+@media screen and (max-width: 695px){
+	.categories__card{
+		margin: 0 auto 26px;
+	}
+	
+	.advantages__card{
+		margin: 0 auto 40px;
+	}
+}
+
 @media screen and (max-width: 390px){
      .containers{
           max-width: 358px;
@@ -149,4 +159,9 @@
      .no__margin__mobile{
           margin-bottom: 0;
      }
+
+	 .texts__paragraph{
+		font-size: 12px;
+		line-height: 16px;
+	 }
 }
