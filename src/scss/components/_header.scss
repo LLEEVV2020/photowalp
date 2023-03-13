@@ -80,6 +80,38 @@
 	cursor: pointer;
 }
 
+.modal-info{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	z-index: -1;
+	opacity: 0;
+	transition: all .15s ease-out;
+}
+
+.modal-info.show{
+	visibility: visible;
+	z-index: 2;
+	opacity: 1;
+}
+
+.modal__overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2;
+	transition: none;
+}
+
 .modal__window__head{
 	position: relative;
 	z-index: 3;
