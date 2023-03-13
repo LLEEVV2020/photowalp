@@ -52,7 +52,7 @@ p {
 }
 body {
   font-family: 'Manrope', sans-serif;
-  max-width: 1800px;
+  /* max-width: 1800px; */
   background-color: var(--back-color);
 }
 .container {
