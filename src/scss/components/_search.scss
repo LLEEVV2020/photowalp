@@ -62,13 +62,12 @@
 .search__btn {
   position: absolute;
   background-image: url("/img/search.svg");
-  z-index: 1000;
   height: 40px;
   width: 56px;
   outline: none;
   border: none;
   background-color: transparent;
-  z-index: 1000;
+  z-index: 1;
 }
 .search-input {
   padding: 9px 72px;
@@ -98,7 +97,7 @@
   width: 56px;
   outline: none;
   border: none;
-  z-index: 1000;
+  z-index: 1;
   right: 0;
   background-color: transparent;
 }
