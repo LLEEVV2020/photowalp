@@ -3,6 +3,8 @@ body {
 }
 .feedback__unique {
   min-width: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 47px;
   display: flex;
   flex-direction: column;
