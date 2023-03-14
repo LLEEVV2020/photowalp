@@ -252,7 +252,7 @@ body {
 .form__order-box {
   margin-bottom: 24px;
   position: relative;
-  width: 55.2%;
+  width: 65.5%;
   background-color: var(--white-color);
   border-radius: 12px;
 }
@@ -340,7 +340,7 @@ body {
   margin-bottom: 5px;
   padding-top: 8px;
   padding-bottom: 8px;
-  width: 91%;
+  width: 83%;
   background-color: var(--white-color);
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
   border-radius: 12px;
@@ -412,5 +412,5 @@ body {
 }
 .info {
   margin-bottom: 16px;
-  width: 91%;
+  width: 83%;
 }
