@@ -58,6 +58,7 @@ body {
 .container {
   padding: 16px 47px;
   margin: 0 auto;
+  max-width: 1024px;
 }
 .about__arrow {
   margin-bottom: 24px;
