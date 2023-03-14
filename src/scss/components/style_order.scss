@@ -1,3 +1,8 @@
+.order__container {
+  width: 930px;
+  margin: 0 auto;
+}
+
 .categories__btn__order{
 	margin: 24px auto 24px 47px;
 }
@@ -397,6 +402,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023.9px) {
+  .order__container {
+    width: 720px;
+  }
 	.categories__btn__order{
 		margin: 16px auto 24px 24px;
 	}
@@ -454,6 +462,9 @@
 }
 
 @media (max-width: 767.9px) {
+  .order__container {
+    width: 100%;
+  }
 	.categories__btn__order{
 		margin: 16px auto 24px 16px;
 	}
