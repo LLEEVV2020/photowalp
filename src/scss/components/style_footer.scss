@@ -1,6 +1,7 @@
 .footer {
     background: #ffffff;
     margin: 64px auto 0;
+    width: 100%;
 
     *,
     *::after,
@@ -17,8 +18,9 @@
     .footer__wrapper {
         padding: 60px 51px 48px 48px;
         position: relative;
-        max-width: 1024px;
+        //max-width: 1024px;
         margin: 0 auto;
+        max-width: 996px;
     }
 
     .footer__items {
