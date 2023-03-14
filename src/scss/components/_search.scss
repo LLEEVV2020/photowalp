@@ -1,6 +1,16 @@
 .search__page {
-  max-width: 930px;
+  width: 930px;
   margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 1023.9px) {
+  .search__page {
+    width: 720px;
+  }
+}
+@media (max-width: 767.9px) {
+  .search__page {
+    width: 100%;
+  }
 }
 
 
