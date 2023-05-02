@@ -12,6 +12,13 @@
 /* Ограничивающая оболочка */
 .slick-list{
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
 }
 
 /* Лента слайдов */
@@ -181,7 +188,7 @@
 }
 @media screen and (max-width: 540px) {
     .sliders__order {
-        width: 358px;
+        max-width: 358px;
         height: 232px;
         margin-bottom: 16px;
     }
