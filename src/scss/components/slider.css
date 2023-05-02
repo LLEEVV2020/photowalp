@@ -171,3 +171,22 @@
 .sliders__order .slick-arrow.slick-disabled {
     opacity: .8;
 }
+
+@media screen and (max-width: 768.98px) {
+    .sliders__order {
+        width: 534px;
+        height: 352px;
+        margin-bottom: 24px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .sliders__order {
+        width: 358px;
+        height: 232px;
+        margin-bottom: 16px;
+    }
+    .sliders__order .slick-arrow {
+        width: 24px;
+        height: 24px;
+    }
+}
