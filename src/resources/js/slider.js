@@ -1,4 +1,3 @@
-
 // ============ Sliders ==============
 $(document).ready(function () {
    $('.sliders__order').slick({
