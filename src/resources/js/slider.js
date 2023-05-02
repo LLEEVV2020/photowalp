@@ -9,7 +9,7 @@ $(document).ready(function () {
       speed: 500,
       easing: 'ease',
       centerMode: false,
-      variableWidth: false,
+      variableWidth: true,
       infinite: false,
       draggable: false,
       swipe: false,
