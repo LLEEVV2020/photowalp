@@ -3,6 +3,7 @@
 $(document).ready(function () {
    $('.sliders__order').slick({
       arrows: true,
+      dots: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       speed: 500,
