@@ -8,7 +8,7 @@ $(document).ready(function () {
       speed: 500,
       easing: 'ease',
       centerMode: false,
-      variableWidth: true,
+      variableWidth: false,
       infinite: false,
       draggable: false,
       swipe: false,
