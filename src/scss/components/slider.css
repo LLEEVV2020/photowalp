@@ -208,4 +208,16 @@
         width: 24px;
         height: 24px;
     }
+    .order__unique .size h2 {
+        max-width: auto;
+    }
+    .sliders__order .slick-arrow.slick-prev {
+        left: -12px;
+    }
+    .sliders__order .slick-arrow.slick-next {
+        right: -12px;
+    }
+}
+@media screen and (max-width: 389.98px) {
+
 }
