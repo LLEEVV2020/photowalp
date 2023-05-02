@@ -1,0 +1,132 @@
+/* Слайдер */
+.slick-slider{
+    z-index: 10;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+
+/* Ограничивающая оболочка */
+.slick-list{
+    overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/* Слайд */
+.slick-slide{}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+
+/* Слайд основной */
+.slick-slide.slick-current{}
+
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+
+/* Стрелка */
+.slick-arrow{}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Точки (булиты) */
+.slick-dots{}
+
+.slick-dots li{}
+
+/* Активная точка */
+.slick-dots li.slick-active{}
+
+/* Элемент точки */
+.slick-dots li button{}
+
+
+/***** Конкретный Слайдер ********/
+.sliders__order {
+    position: relative;
+}
+
+.sliders__order .slick-arrow{
+    position: absolute;
+    top: -120px;
+    font-size: 0;
+    width: 45px;
+    height: 45px;
+    background: #8D86C9;
+}
+
+.sliders__order .slick-arrow.slick-prev{
+    right: 60px;
+}
+
+.sliders__order .slick-arrow.slick-prev::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/svg/prev.svg) no-repeat center;
+    z-index: 10;
+}
+
+.sliders__order .slick-arrow.slick-next{
+    right: 0;
+}
+
+.sliders__order .slick-arrow.slick-next::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/svg/next.svg) no-repeat center;
+    z-index: 10;
+}
+
+.sliders__order .slick-arrow.slick-disabled {
+    opacity: .3;
+}
+
+.sliders__order .slick-arrow.slick-next,
+.sliders__order .slick-arrow.slick-prev
+{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: .2s all;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -ms-transition: .2s all;
+    -o-transition: .2s all;
+}
+
+.sliders__order .slick-arrow.slick-next:hover,
+.sliders__order .slick-arrow.slick-prev:hover
+{
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
