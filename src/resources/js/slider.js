@@ -8,7 +8,7 @@ $(document).ready(function () {
       slidesToScroll: 1,
       speed: 500,
       easing: 'ease',
-      centerMode: true,
+      centerMode: false,
       variableWidth: false,
       infinite: false,
       draggable: false,
