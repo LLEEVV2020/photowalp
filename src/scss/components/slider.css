@@ -92,6 +92,7 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     background: linear-gradient(5.43deg, rgba(235, 16, 16, 0.5) 4.24%, rgba(215, 78, 78, 0.5) 115.34%);
+    cursor: pointer;
 }
 
 
@@ -124,6 +125,7 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    cursor: pointer;
 }
 
 .sliders__order .slick-arrow.slick-prev{
