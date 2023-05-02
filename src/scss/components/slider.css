@@ -128,7 +128,7 @@
 
 .sliders__order .slick-arrow.slick-prev{
     left: -20px;
-    box-shadow: 0 6px 8px -3px rgba(0, 0, 0, .6);;
+    box-shadow: 0 6px 8px -3px rgba(0, 0, 0, .6);
 }
 
 .sliders__order .slick-arrow.slick-prev::before {
@@ -149,6 +149,7 @@
 
 .sliders__order .slick-arrow.slick-next{
     right: -20px;
+    box-shadow: 0 6px 8px -3px rgba(0, 0, 0, .6);
 }
 
 .sliders__order .slick-arrow.slick-next::before {
@@ -163,5 +164,5 @@
 }
 
 .sliders__order .slick-arrow.slick-disabled {
-    opacity: .6;
+    opacity: .8;
 }
