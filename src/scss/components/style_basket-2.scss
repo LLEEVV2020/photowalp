@@ -14,7 +14,8 @@
     .basket-2__wrapper {
         max-width: 1024px;
         margin: 0 auto;
-        padding: 26px 47px 40px;
+        // padding: 26px 47px 40px;
+        padding-bottom: 40px;
     }
 
     .btn-prev {
@@ -381,9 +382,9 @@
     /* ====== MEDIA basket-2 start ======= */
 
     @media screen and (max-width: 768px) {
-        .basket-2__wrapper {
-            padding: 18px 24px 40px;
-        }
+        // .basket-2__wrapper {
+        //     padding: 18px 24px 40px;
+        // }
 
         .basket__top-items {
             margin: 18px 0 25px;
@@ -431,9 +432,9 @@
     }
 
     @media screen and (max-width: 460px) {
-        .basket-2__wrapper {
-            padding: 16px 16px 40px;
-        }
+        // .basket-2__wrapper {
+        //     padding: 16px 16px 40px;
+        // }
 
         .basket__top-items {
             margin: 18px 0 24px;

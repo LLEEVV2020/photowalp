@@ -16,7 +16,7 @@
     .basket-1__wrapper {
         max-width: 1024px;
         margin: 0 auto;
-        padding: 26px 47px 0 47px;
+        // padding: 26px 47px 0 47px;
     }
 
     .btn-prev {
@@ -107,9 +107,9 @@
     /* ====== MEDIA basket-1 start ======= */
 
     @media screen and (max-width: 768px) {
-        .basket-1__wrapper {
-            padding: 18px 24px 0;
-        }
+        // .basket-1__wrapper {
+        //     padding: 18px 24px 0;
+        // }
         .basket__top-items {
             margin: 18px 0 25px;
         }
@@ -130,9 +130,9 @@
     }
 
     @media screen and (max-width: 460px) {
-        .basket-1__wrapper {
-            padding: 16px 16px 0;
-        }
+        // .basket-1__wrapper {
+        //     padding: 16px 16px 0;
+        // }
         .basket__top-items {
             margin: 18px 0 24px;
         }
