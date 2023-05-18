@@ -102,16 +102,75 @@ div, p, input, button, form, span, a, ul, li{
      margin-bottom: 24px;
 }
 
+.link__ico{
+	width: 24px;
+	background-repeat: no-repeat;
+}
+
+.link1{
+	background-image: url('../img/1.svg');
+}
+.link2{
+	background-image: url('../img/2.svg');
+}
+.link3{
+	background-image: url('../img/3.svg');
+}
+.link4{
+	background-image: url('../img/4.svg');
+}
+.link5{
+	background-image: url('../img/5.svg');
+}
+.link6{
+	background-image: url('../img/6.svg');
+}
+.link7{
+	background-image: url('../img/7.svg');
+}
+.link8{
+	background-image: url('../img/8.svg');
+}
+.link9{
+	background-image: url('../img/9.svg');
+}
+.link10{
+	background-image: url('../img/10.svg');
+}
+.link11{
+	background-image: url('../img/11.svg');
+}
+.link12{
+	background-image: url('../img/12.svg');
+}
+.link13{
+	background-image: url('../img/13.svg');
+}
+.link14{
+	background-image: url('../img/14.svg');
+}
+.link15{
+	background-image: url('../img/15.svg');
+}
+.link16{
+	background-image: url('../img/16.svg');
+}
+.link17{
+	background-image: url('../img/17.svg');
+}
+.link18{
+	background-image: url('../img/18.svg');
+}
+.link19{
+	background-image: url('../img/19.svg');
+}
+
 .link:active{
      background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      background-clip: text;
      text-fill-color: transparent;
-}
-
-.link:active > .link__svg{
-     fill: #D74E4E;
 }
 
 .link:active > .link__arrow{
@@ -385,6 +444,14 @@ div, p, input, button, form, span, a, ul, li{
      line-height: 25px;
      border: none;
      border-radius: 12px;
+}
+
+.card__button:hover{
+	background: #821111;
+}
+
+.card__button:active{
+	background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
 }
 
 .card__button__big{
