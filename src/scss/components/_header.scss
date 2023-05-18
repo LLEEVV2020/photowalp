@@ -6,6 +6,14 @@
   z-index: 4;
 }
 
+.header__menu ul li a .activies {
+  background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
 .container__header {
   max-width: 1024px;
   margin: 0 auto;
