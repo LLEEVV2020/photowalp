@@ -356,148 +356,149 @@
 }
 
 .total {
-	max-width: 1024px;
-	width: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background: #ffffff;
-	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
-	padding: 16px 47px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
+    padding: 16px 47px;
 }
 
 .total__sum-btn {
-	display: flex;
-	gap: 24px;
-	align-items: center;
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
 
 .total__sum {
-	font-weight: 700;
-	font-size: 24px;
-	background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .total__btn {
-	text-decoration: none;
-	color: #ffffff;
-	padding: 15.5px 18.5px;
-	background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
-	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
-	border-radius: 12px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15.5px 18.5px;
+    background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
 }
 
 .total__btn:hover {
-	background: #821111;
+    background: #821111;
 }
 
 /* Total CheckBox style start */
 
 .total label {
-	font-weight: 700;
-	font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .total-checkbox {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
 }
 
 .total-checkbox+label {
-	display: inline-flex;
-	align-items: center;
-	user-select: none;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
 }
 
 .total-checkbox+label::before {
-	content: '';
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	flex-shrink: 0;
-	flex-grow: 0;
-	border: 1px solid #adb5bd;
-	border-radius: 0.25em;
-	margin-right: 0.5em;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 75% 75%;
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 75% 75%;
 }
 
 .total-checkbox:checked+label::before {
-	border-color: #EB1010;
-	background-color: #EB1010;
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    border-color: #EB1010;
+    background-color: #EB1010;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
 /* стили при наведении курсора на checkbox */
 .total-checkbox:not(:disabled):not(:checked)+label:hover::before {
-	border-color: #EB1010;
-	box-shadow: 0 0 4px #EB1010;
+    border-color: #EB1010;
+    box-shadow: 0 0 4px #EB1010;
 }
 
 /* стили для активного состояния чекбокса (при нажатии на него) */
 .total-checkbox:not(:disabled):active+label::before {
-	background-color: #EB1010;
-	border-color: #EB1010;
+    background-color: #EB1010;
+    border-color: #EB1010;
 }
 
 @media screen and (max-width: 768px) {
-	.card__sum,
-	.total label {
-		font-size: 16px;
-	}
 
-	.total {
-		padding: 18px 24px;
-	}
+    .card__sum,
+    .total label {
+        font-size: 16px;
+    }
 
-	.total__sum {
-		font-size: 18px;
-	}
+    .total {
+        padding: 18px 24px;
+    }
 
-	.total__btn {
-		font-size: 16px;
-		padding: 11px 16px;
-	}
+    .total__sum {
+        font-size: 18px;
+    }
+
+    .total__btn {
+        font-size: 16px;
+        padding: 11px 16px;
+    }
 }
 
 
 @media screen and (max-width: 460px) {
-	.total__sum-btn {
-		gap: 8px;
-	}
+    .total__sum-btn {
+        gap: 8px;
+    }
 
-	.total {
-		padding: 14px 10px;
-	}
+    .total {
+        padding: 16px 18px;
+    }
 
-	.total__btn {
-		padding: 11px 12.5px;
-	}
+    .total__btn {
+        padding: 11px 12.5px;
+    }
 
-	.total label {
-		margin-top: 5px;
-	}
+    .total label {
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 350px) {
-	.checkbox__input-label {
-		width: 100%;
-	}
+    .checkbox__input-label {
+        width: 100%;
+    }
 
-	.total {
-		flex-wrap: wrap;
-	}
+    .total {
+        flex-wrap: wrap;
+    }
 
-	.total__sum-btn {
-		width: 100%;
-		justify-content: space-between;
-	}
+    .total__sum-btn {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
