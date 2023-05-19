@@ -22,6 +22,11 @@
   }
 }
 
+.search__inputs1--hover .btn__search1:after,
+.search__inputs1:hover .btn__search1:after {
+  height: 39px;
+}
+
 .btn__search1 {
   border: none;
   outline: none;
