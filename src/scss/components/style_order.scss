@@ -253,27 +253,13 @@
 
 		input::-webkit-outer-spin-button,
 		input::-webkit-inner-spin-button {
-			/* display: none; <- Crashes Chrome on hover */
 			-webkit-appearance: none;
 			margin: 0;
-			/* <-- Apparently some margin are still there even though it's hidden */
 		}
 	}
 
 	.size_field__error {
-		// p:after {
-		// 	position: absolute;
-		// 	top: 84px;
-		// 	left: 0;
-		// 	content: 'Error';
-		// 	font-weight: 500;
-		// 	font-size: 13px;
-		// 	line-height: 20px;
-		// 	color: #dd4c1e;
-		// }
-
 		input {
-			// border: 1px solid #dd4c1e;
 			box-shadow: 0px 2px 3px rgba(221, 76, 30, 0.16);
 			border-radius: 12px;
 
