@@ -132,16 +132,6 @@
 		}
 	}
 
-	.modal__unique {
-		visibility: hidden;
-		opacity: 0;
-	}
-
-	.modal__unique:target {
-		visibility: visible;
-		opacity: 1;
-	}
-
 	.list_circle {
 		display: flex;
 		align-items: center;
