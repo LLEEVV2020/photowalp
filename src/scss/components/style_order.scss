@@ -41,6 +41,8 @@ body.active {
 	-ms-border-radius: 12px;
 	-o-border-radius: 12px;
 	overflow: hidden;
+	width: 500px;
+	height: 500px;
 }
 
 .modal {
@@ -580,6 +582,18 @@ body.active {
 		&:active {
 			background: #f78686;
 		}
+	}
+}
+
+@media screen and (max-width:991px) {
+	.modal {
+		width: 342px;
+		height: 400px;
+	}
+
+	.texture__wrapper {
+		width: 342px;
+		height: 342px;
 	}
 }
 
