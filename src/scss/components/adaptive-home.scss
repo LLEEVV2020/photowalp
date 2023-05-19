@@ -1,100 +1,102 @@
 @media screen and (max-width: 768px) {
-	.containers{
+     .containers {
           max-width: 720px;
      }
 
      .search__inputs1 {
           display: none;
      }
+
      .btn__cart {
           display: none;
      }
 
-     .categories__btn{
+     .categories__btn {
           width: 176px;
           padding-left: 48px;
      }
 
-     .categories__menu{
+     .categories__menu {
           max-width: 558px;
           height: 1000px;
           padding-left: 24px;
           top: 68px;
      }
 
-     .links{
+     .links {
           margin-top: 40px;
      }
 
-     .link{
+     .link {
           width: 406px;
           margin-bottom: 16px;
      }
 
-     .categories__card{
+     .categories__card {
           max-width: 348px;
           height: 200px;
           margin-bottom: 26px;
      }
 
-     .card__margin__left{
+     .card__margin__left {
           margin-right: 24px;
      }
 
-     .card__img{
+     .card__img {
           max-width: 348px;
           height: 178px;
      }
 
-     .card__button{
+     .card__button {
           width: 200px;
           height: 44px;
           font-size: 16px;
           line-height: 22px;
      }
 
-     .advantages__cards{
+     .advantages__cards {
           margin-left: 0;
           margin-top: 45px;
           margin-bottom: 24px;
      }
 
-     .advantages__card{
+     .advantages__card {
           max-width: 348px;
      }
 }
 
-@media screen and (max-width: 695px){
-	.categories__card{
-		margin: 0 auto 26px;
-	}
+@media screen and (max-width: 695px) {
+     .categories__card {
+          margin: 0 auto 26px;
+     }
 
-	.advantages__card{
-		margin: 0 auto 40px;
-	}
+     .advantages__card {
+          margin: 0 auto 40px;
+     }
 }
 
-@media screen and (max-width: 560px){
-	.categories__menu{
-		max-width: 100%;
-	}
+@media screen and (max-width: 560px) {
+     .categories__menu {
+          max-width: 100%;
+     }
 }
 
-@media screen and (max-width: 450px){
-	.link{
-		width: 85%;
-	}
-  .categories__card{
-    width: 100%;
-  }
+@media screen and (max-width: 450px) {
+     .link {
+          width: 85%;
+     }
+
+     .categories__card {
+          width: 100%;
+     }
 }
 
-@media screen and (max-width: 390px){
-     .containers{
+@media screen and (max-width: 390px) {
+     .containers {
           max-width: 358px;
      }
 
-     .categories__btn{
+     .categories__btn {
           width: 165px;
           height: 44px;
           padding-left: 32px;
@@ -104,79 +106,82 @@
           background: url(/img/Icon.svg) no-repeat 24px 10px/24px 24px, linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
      }
 
-     .categories__menu{
+     .categories__menu {
           max-width: 100%;
           height: 976px;
           padding-left: 16px;
           top: 68px;
      }
 
-     .links{
+     .links {
           margin-top: 40px;
      }
 
-     .link{
+     .link {
           max-width: 294px;
           margin-bottom: 16px;
      }
 
-     .categories__card{
+     .categories__card {
           max-width: 358px;
           height: 214px;
           margin-bottom: 16px;
      }
 
-     .card__margin__left{
+     .card__margin__left {
           margin-right: 0;
      }
 
-     .card__img{
+     .card__img {
           width: 100%;
           height: 200px;
           object-fit: cover;
      }
 
-     .card__button{
+     .card__button {
           width: 170px;
           height: 32px;
           padding-top: 8px;
           font-size: 12px;
           line-height: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
      }
 
-     .categories__title{
+     .categories__title {
           font-size: 24px;
           line-height: 33px;
      }
 
-     .advantages__cards{
+     .advantages__cards {
           margin-top: 24px;
      }
 
-     .advantages__card{
+     .advantages__card {
           max-width: 358px;
           height: 130px;
           margin-bottom: 24px;
           width: 100%;
      }
 
-     .advantages__titles{
+     .advantages__titles {
           font-size: 18px;
           line-height: 25px;
           margin-top: 5px;
      }
 
-     .advantages__img{
+     .advantages__img {
           width: 100px;
           height: 100px;
      }
 
-     .no__margin__mobile{
+     .no__margin__mobile {
           margin-bottom: 0;
      }
 
-	 .texts__paragraph{
-		font-size: 12px;
-		line-height: 16px;
-	 }
+     .texts__paragraph {
+          font-size: 12px;
+          line-height: 16px;
+     }
 }

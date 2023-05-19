@@ -811,3 +811,10 @@ body.active {
 		}
 	}
 }
+
+@media screen and (max-width:540px) {
+	.order__unique .custom-checkbox>span::before {
+		top: -2px;
+		right: -2px;
+	}
+}
