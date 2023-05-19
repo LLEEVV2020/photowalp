@@ -37,6 +37,7 @@
   width: 68px;
   height: 40px;
   background: transparent;
+  cursor: pointer;
 
   //background: #fff;
   &::before {
@@ -74,6 +75,7 @@
   border: 0;
   padding: 0;
   background-image: url(/img/close1.svg);
+  cursor: pointer;
 }
 
 .search__inputs1--hover,
