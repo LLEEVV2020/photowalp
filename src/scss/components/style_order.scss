@@ -236,10 +236,14 @@
 				outline-offset: 0;
 			}
 
-			&:hover {
+			&:focus {
 				font-weight: 500;
 				color: rgba(27, 31, 59, 0.8);
-				border: 2px solid #dd4c1e
+				border: 2px solid #526ed3;
+			}
+
+			&:hover {
+				border: 2px solid #dd4c1e;
 			}
 
 			&:disabled {
@@ -275,6 +279,10 @@
 
 			&:hover {
 				border: 2px solid #dd4c1e;
+			}
+
+			&:focus {
+				border: 2px solid #526ed3;
 			}
 		}
 	}
