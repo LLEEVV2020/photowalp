@@ -30,13 +30,14 @@
   left: 10px;
   overflow: hidden;
   width: 68px;
-  height: 339px;
+  height: 40px;
+  background: transparent;
 
   //background: #fff;
   &::before {
     content: "";
     width: 45px;
-    height: 39px;
+    height: 40px;
     background: -o-linear-gradient(84.57deg, #EB1010 4.24%, #D74E4E 115.34%);
     background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
     border-radius: 100px;
