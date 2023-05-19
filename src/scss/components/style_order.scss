@@ -71,9 +71,11 @@
 		grid-area: btn__left;
 		transform: rotate(180deg);
 	}
+
 	.button__right {
 		grid-area: btn__right;
 	}
+
 	.carousel_dots {
 		grid-area: dots;
 		display: flex;
@@ -91,11 +93,9 @@
 	.carousel_dot {
 		width: 8px;
 		height: 8px;
-		background: linear-gradient(
-			5.43deg,
-			rgba(235, 16, 16, 0.5) 4.24%,
-			rgba(215, 78, 78, 0.5) 115.34%
-		);
+		background: linear-gradient(5.43deg,
+				rgba(235, 16, 16, 0.5) 4.24%,
+				rgba(215, 78, 78, 0.5) 115.34%);
 		border: 0;
 		border-radius: 100%;
 		margin: 0 2px;
@@ -215,6 +215,7 @@
 			line-height: 22px;
 			margin-bottom: 4px;
 		}
+
 		input {
 			width: 100%;
 			height: 56px;
@@ -240,9 +241,18 @@
 				color: rgba(27, 31, 59, 0.8);
 				border: 2px solid #526ed3;
 			}
+
 			&:disabled {
 				box-shadow: none;
 			}
+		}
+
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			/* display: none; <- Crashes Chrome on hover */
+			-webkit-appearance: none;
+			margin: 0;
+			/* <-- Apparently some margin are still there even though it's hidden */
 		}
 	}
 
@@ -259,7 +269,7 @@
 		}
 
 		input {
-			border: 1px solid #dd4c1e;
+			// border: 1px solid #dd4c1e;
 			box-shadow: 0px 2px 3px rgba(221, 76, 30, 0.16);
 			border-radius: 12px;
 
@@ -390,6 +400,7 @@
 		&:hover {
 			border: 1px solid #eb1010;
 		}
+
 		&:active {
 			background: #dfe3f3;
 		}
@@ -404,6 +415,7 @@
 		&:hover {
 			background: #930a0a;
 		}
+
 		&:active {
 			background: #f78686;
 		}
@@ -414,14 +426,17 @@
 	.order__container {
 		width: 720px;
 	}
+
 	.categories__btn__order {
 		margin: 16px auto 24px 24px;
 	}
+
 	.order__unique {
 		h2 {
 			font-size: 28px;
 			line-height: 32px;
 		}
+
 		.carousel {
 			grid-template-columns: 0 534px 0;
 		}
@@ -459,10 +474,12 @@
 			top: 0px;
 			right: 0px;
 		}
+
 		.last_buttons {
 			width: 720px;
 			margin: 24px 0;
 		}
+
 		.last_button {
 			width: 354px;
 			font-size: 24px;
@@ -474,19 +491,24 @@
 	.order__container {
 		width: 100%;
 	}
+
 	.categories__btn__order {
 		margin: 16px auto 24px 16px;
 	}
+
 	.order__unique {
 		padding: 0 16px;
+
 		h1 {
 			font-size: 24px;
 			line-height: 33px;
 		}
+
 		h2 {
 			font-size: 24px;
 			line-height: 32px;
 		}
+
 		.order {
 			padding: 0 16px;
 		}
@@ -499,6 +521,7 @@
 		.button__left {
 			transform: scale(0.6) rotate(180deg);
 		}
+
 		.button__right {
 			transform: scale(0.6);
 		}
@@ -509,6 +532,7 @@
 				line-height: 16px;
 			}
 		}
+
 		.list_circle {
 			width: 16px;
 			height: 16px;
@@ -539,6 +563,7 @@
 			height: fit-content;
 			gap: 24px;
 		}
+
 		.size_field {
 			width: 100%;
 
@@ -546,12 +571,14 @@
 				font-size: 11px;
 				line-height: 16px;
 			}
+
 			input {
 				font-size: 13px;
 				line-height: 20px;
 				height: 32px;
 			}
 		}
+
 		.size_field__error {
 			p:after {
 				top: 52px;
