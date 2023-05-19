@@ -2,7 +2,8 @@
 // 	modal__unique.classList.remove('display__none');
 // 	modal__texture.classList.remove('display__none');
 // }
-document.getElementsByClassName("texture_element").onclick = function () {
+var btn = document.getElementsByClassName("texture_element");
+btn.onclick = function () {
 	modal__unique.classList.remove('display__none');
 	modal__texture.classList.remove('display__none');
 }
