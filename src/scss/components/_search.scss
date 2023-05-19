@@ -103,8 +103,18 @@ h1 {
       padding: 2px 8px;
       background: #D7D7D7;
       border-radius: 8px;
+      border: 1px solid transparent;
     }
   }
+}
+
+.search__categories ul li:hover {
+  border-color: #EB1010;
+}
+
+.search__categories ul li .active-tab {
+  border-color: transparent;
+  background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
 }
 
 @media screen and (max-width: 450px) {
