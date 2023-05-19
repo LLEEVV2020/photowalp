@@ -672,18 +672,13 @@
 </section>
 <!-- Модальное окно -->
 <div class="modal" data-modal="1">
-	<!--   Svg иконка для закрытия окна  -->
-	<svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-		<path
-			d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
-	</svg>
-	<p class="modal__title">Оставьте данные</p>
-	<p class="modal__desc">В ближайшее время с вами свяжутся</p>
-	<form action="#" class="call">
-		<input type="text" name="name" placeholder="Имя">
-		<input type="text" name="phone" placeholder="Телефон">
-		<button type="submit">Отправить</button>
-	</form>
+	<h2>Живопись</h2>
+	<div class="texture__wrapper">
+		<img class="texture__main" src="/img/texture1.png" />
+		<button id="modal__texture__btn__close" class="close-btn modal__cross js-modal-close">
+			<img src="/img/close-btn.png" />
+		</button>
+	</div>
 </div>
 <!-- Подложка под модальным окном -->
 <div class="overlay js-overlay-modal"></div>
