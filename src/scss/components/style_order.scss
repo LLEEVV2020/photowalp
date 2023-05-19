@@ -452,23 +452,23 @@ body.active {
 		position: relative;
 	}
 
-	// .texture_element__circle {
-	// 	position: absolute;
-	// 	top: 4px;
-	// 	right: 4px;
-	// 	width: 24px;
-	// 	height: 24px;
-	// 	border-radius: 100%;
-	// 	border: 2px solid rgba(235, 16, 16, 0.5);
+	.texture_element__circle {
+		position: absolute;
+		top: 4px;
+		right: 4px;
+		width: 24px;
+		height: 24px;
+		border-radius: 100%;
+		border: 2px solid rgba(235, 16, 16, 0.5);
 
-	// 	&:hover {
-	// 		border: 6px solid #930a0a;
-	// 	}
+		&:hover {
+			border: 6px solid #930a0a;
+		}
 
-	// 	&:active {
-	// 		border: 6px solid #eb1010;
-	// 	}
-	// }
+		&:active {
+			border: 6px solid #eb1010;
+		}
+	}
 
 	.instructions {
 		width: 610px;
