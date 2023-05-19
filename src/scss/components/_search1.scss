@@ -1,4 +1,4 @@
-.search__inputs1{
+.search__inputs1 {
   height: 40px;
   width: 100%;
   background: linear-gradient(to left, #000, rgb(235, 16, 16));
@@ -7,7 +7,8 @@
   border-radius: 12px;
   overflow: hidden;
   margin-top: 8px;
-  &::before{
+
+  &::before {
     content: "";
     display: block;
     height: calc(40px - 2px);
@@ -21,27 +22,30 @@
   }
 }
 
-.btn__search1{
+.btn__search1 {
+  border: none;
+  outline: none;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 10px;
   overflow: hidden;
   width: 68px;
-  height: 40px;
+  height: 339px;
+
   //background: #fff;
-  &::before{
+  &::before {
     content: "";
     width: 45px;
-    height: 40px;
+    height: 39px;
     background: -o-linear-gradient(84.57deg, #EB1010 4.24%, #D74E4E 115.34%);
     background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
     border-radius: 100px;
     position: absolute;
-    top: 0;
+    top: 1px;
     left: 0;
   }
 
-  &::after{
+  &::after {
     content: "";
     background-image: url(/img/search1.svg);
     width: 40px;
@@ -51,7 +55,10 @@
     left: -9px;
   }
 }
-.btn__clear1{
+
+.btn__clear1 {
+  border: none;
+  outline: none;
   height: 40px;
   width: 56px;
   position: absolute;
@@ -64,11 +71,11 @@
 }
 
 .search__inputs1--hover,
-.search__inputs1:hover{
+.search__inputs1:hover {
   background: none;
 
 }
-.search__inputs1--main{
+
+.search__inputs1--main {
   max-width: 610px;
 }
-
