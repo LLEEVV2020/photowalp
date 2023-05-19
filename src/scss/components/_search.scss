@@ -2,11 +2,13 @@
   width: 930px;
   margin: 0 auto;
 }
+
 @media (min-width: 768px) and (max-width: 1023.9px) {
   .search__page {
     width: 720px;
   }
 }
+
 @media (max-width: 767.9px) {
   .search__page {
     width: 100%;
@@ -24,22 +26,23 @@
   -o-border-radius: 12px;
   position: relative;
 }
-  h1 {
-    text-align: center;
-    margin: 0;
-    padding: 10px 0 4px;
-  }
 
-  // input {
-  //   height: 40px;
-  //   width: 100%;
-  //   border-radius: 12px;
-  //   //border: linear-gradient(90deg, rgba(235,16,16,1) 0%, rgba(235,16,16,1) 0%, rgba(0,0,0,1) 100%);
-  //   -webkit-border-radius: 12px;
-  //   -moz-border-radius: 12px;
-  //   -ms-border-radius: 12px;
-  //   -o-border-radius: 12px;
-  // }
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 4px;
+}
+
+// input {
+//   height: 40px;
+//   width: 100%;
+//   border-radius: 12px;
+//   //border: linear-gradient(90deg, rgba(235,16,16,1) 0%, rgba(235,16,16,1) 0%, rgba(0,0,0,1) 100%);
+//   -webkit-border-radius: 12px;
+//   -moz-border-radius: 12px;
+//   -ms-border-radius: 12px;
+//   -o-border-radius: 12px;
+// }
 
 
 .closeModal {
@@ -64,9 +67,11 @@
 .closeModal:active {
   background: #EB1010;
 }
+
 .search__elem {
-	width: 100%;
+  width: 100%;
 }
+
 .search__btn {
   position: absolute;
   background-image: url("/img/search.svg");
@@ -77,12 +82,15 @@
   background-color: transparent;
   z-index: 1;
 }
+
 .search-input {
-	max-width: 85%;
+  max-width: 85%;
+  width: 100%;
 }
 
 .search__categories {
   padding-bottom: 16px;
+
   ul {
     padding: 0;
     max-width: 400px;
@@ -158,37 +166,44 @@
     max-width: 720px;
     margin: 0 auto;
   }
-  .search__elem{
-	display: block;
+
+  .search__elem {
+    display: block;
   }
 }
+
 @media screen and (max-width: 640px) {
-	.search-input{
-		max-width: 80%;
-	}
+  .search-input {
+    max-width: 80%;
+  }
 }
+
 @media screen and (max-width: 480px) {
-	.search-input{
-		max-width: 75%;
-	}
+  .search-input {
+    max-width: 75%;
+  }
 }
+
 @media screen and (max-width: 430px) {
   .search__page {
     max-width: 358px;
     margin: 0 auto;
   }
-  .search-input{
-	max-width: 70%;
+
+  .search-input {
+    max-width: 70%;
   }
 }
+
 @media screen and (max-width: 360px) {
   .search__page {
     max-width: 330px;
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 360px){
-	.search-input{
-		max-width: 65%;
-	}
+
+@media screen and (max-width: 360px) {
+  .search-input {
+    max-width: 65%;
+  }
 }
