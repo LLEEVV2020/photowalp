@@ -327,6 +327,12 @@ body {
   border-radius: 12px;
   cursor: pointer;
 }
+.form__button:hover {
+  background: #821111;
+}
+.form__button:active {
+  background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+}
 .pay__title,
 .del__title {
   margin-bottom: 16px;
