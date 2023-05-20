@@ -394,7 +394,8 @@ body.active {
 			font-weight: 700;
 			font-size: 16px;
 			line-height: 22px;
-			color: black;
+			// color: black;
+			color: rgba(27, 31, 59, 0.8);
 			box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 
 			&:active,
@@ -409,7 +410,7 @@ body.active {
 			}
 
 			&:focus {
-				font-weight: 500;
+				// font-weight: 500;
 				color: rgba(27, 31, 59, 0.8);
 				border: 2px solid rgba(82, 110, 211, .25);
 			}
