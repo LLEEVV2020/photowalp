@@ -471,6 +471,10 @@
 
 
 @media screen and (max-width: 460px) {
+    .total-busket {
+        padding: 16px;
+    }
+
     .total__sum-btn {
         gap: 8px;
     }
@@ -490,15 +494,24 @@
 
 @media screen and (max-width: 350px) {
     .checkbox__input-label {
-        width: 100%;
+        width: 30%;
+        margin-top: 4px;
     }
 
     .total {
         flex-wrap: wrap;
     }
 
+    .total__btn {
+        font-size: 14px;
+    }
+
+    .total__sum {
+        font-size: 16px;
+    }
+
     .total__sum-btn {
-        width: 100%;
+        width: 90%;
         justify-content: space-between;
     }
 }
