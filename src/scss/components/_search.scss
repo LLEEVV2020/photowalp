@@ -88,12 +88,6 @@ h1 {
   width: 100%;
 }
 
-.search__categories ul li.active-tab {
-  border-color: transparent;
-  background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
-  color: #ffffff;
-}
-
 .search__categories {
   padding-bottom: 16px;
 
@@ -119,7 +113,9 @@ h1 {
 }
 
 .search__categories ul li:hover {
-  border-color: #EB1010;
+  border-color: transparent;
+  background: linear-gradient(5.43deg, #EB1010 4.24%, #D74E4E 115.34%);
+  color: #ffffff;
 }
 
 @media screen and (max-width: 450px) {
