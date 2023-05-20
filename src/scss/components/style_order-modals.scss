@@ -132,6 +132,17 @@
 		height: 150px;
 		border-radius: 12px;
 		margin-bottom: 4px;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		-ms-border-radius: 12px;
+		-o-border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.add-to-basket__main img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 
 	.modal__buttons {
